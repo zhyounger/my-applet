@@ -10,17 +10,13 @@
 
 ![扫描小程序码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
 
-![首页](https://github.com/zhyounger/my-applet/raw/master/img/home.png)
+<div align='center'>
+<img src='https://github.com/zhyounger/my-applet/raw/master/img/home.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/archive.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/post.png' height='614' width='283'>
+</div>
 
-![文章列表](https://github.com/zhyounger/my-applet/raw/master/img/archive.png)
-
-![文章页面](https://github.com/zhyounger/my-applet/raw/master/img/post.png)
-
-![段子页面](https://github.com/zhyounger/my-applet/raw/master/img/word.png)
-
-![影集列表](https://github.com/zhyounger/my-applet/raw/master/img/photo-list.png)
-
-![图片展示](https://github.com/zhyounger/my-applet/raw/master/img/photo.png)
+<div align='center'>
+<img src='https://github.com/zhyounger/my-applet/raw/master/img/word.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/photo-list.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/photo.png' height='614' width='283'>
+</div>
 
 ## Change Log
 

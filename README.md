@@ -2,9 +2,9 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![base](https://img.shields.io/badge/基础库-2.7.1-blue.svg)
-![license](https://img.shields.io/badge/license-Apache-2.0-green.svg)
+![license](https://img.shields.io/badge/license-Apache%202.0-green.svg)
 
-微信小程序个人Blog,主要用于个人内容展示。博文数据主要来自WordPress博客[ZHYOUNG](https://zhyoung.cn)
+微信小程序个人Blog,主要用于个人内容展示。博文数据主要来自WordPress博客: [ZHYOUNG](https://zhyoung.cn)
 
 ## 项目演示
 
@@ -24,7 +24,7 @@
 
 ## Change Log
 
-### v-1.0.0（2019-06-21）
+### v 1.0.0（2019-06-21）
 
 小程序: 周Young 正式上线。
 

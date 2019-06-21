@@ -1,7 +1,7 @@
 # 周Young的小程序
 
 <div align='left'>
-<img src='https://img.shields.io/badge/version-1.0.0-blue.svg'><img src='https://img.shields.io/badge/基础库-2.7.1-blue.svg'><img src='https://img.shields.io/badge/license-Apache%202.0-green.svg'>
+<img src='https://img.shields.io/badge/version-1.0.0-blue.svg'>&nbsp;<img src='https://img.shields.io/badge/基础库-2.7.1-blue.svg'>&nbsp;<img src='https://img.shields.io/badge/license-Apache%202.0-green.svg'>
 </div>
 
 ## 介绍

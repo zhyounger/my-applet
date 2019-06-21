@@ -6,9 +6,9 @@
 
 ## 介绍
 
-微信小程序个人Blog,主要用于个人内容展示。博文数据主要来自WordPress博客: [ZHYOUNG](https://zhyoung.cn)
+微信小程序个人Blog,主要用于个人内容展示。博文数据主要来自WordPress博客: <a href='https://zhyoung.cn' target='_blank'>ZHYOUNG</a>
 
-如果周Young有不足的地方，或者你有更好的想法，欢迎提交[ISSUE](https://github.com/zhyounger/my-applet/issues)。
+如果周Young有不足的地方，或者你有更好的想法，欢迎提交<a href='https://github.com/zhyounger/my-applet/issues' target='_blank'>ISSUE</a>。
 
 ![扫码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
 
@@ -44,10 +44,10 @@
 
 ## Contact
 
-<a href="mailto:zhyoung@live.cn">zhyoung@live.cn</a>
+<a href="mailto:zhyoung@live.cn" target='_blank'>zhyoung@live.cn</a>
 
 ## Link
 
-[zhyoung](https://zhyoung.cn)
+<a href='https://zhyoung.cn' target='_blank'>ZHYOUNG</a>
 
 [License Mit](https://github.com/zhyounger/my-applet/blob/master/LICENSE)

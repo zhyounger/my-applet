@@ -1,0 +1,17 @@
+<!--miniprogram/pages/photo/photo.wxml-->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+
+<view class='container'>
+  <view class='top-view'>
+    <text>摄影图集</text>
+  </view>
+  <view class='divLine'></view>
+  <scroll-view scroll-y="true" bindscrolltoupper="bindscrolltoupper" bindscrolltolower="bindscrolltolower" style='height: 100%;'>
+    <block wx:for-items="{{archiveList}}" wx:key="ID">
+      <view id='{{item}}' class='centerContent' bindtap='gotoPhotoView'>
+        <text>{{item}}</text>
+      </view>
+      <view class='divLine'></view>
+    </block>
+  </scroll-view>
+</view>

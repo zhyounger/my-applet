@@ -1,0 +1,8 @@
+/* miniprogram/pages/archive/archive.wxss */
+.centerContent{
+  padding: 0 30rpx 0 30rpx;
+}
+
+.bottomView{
+  padding: 0 30rpx 0 30rpx;
+}

@@ -1,0 +1,27 @@
+<!-- 段子页面 -->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+<scroll-view scroll-y="true" bindscrolltoupper="bindscrolltoupper" bindscrolltolower="bindscrolltolower" style='height: 100%'>
+  <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+    <!-- 分割线 -->
+    <view class='divLine'></view>
+    <!-- 整体item样式 -->
+    <view class='containsView'>
+    
+      <!-- 中间内容 -->
+      <view  class='centerContent'>
+        <text>{{item.text}}</text>
+      </view>
+      <!-- 底部view样式 -->
+      <view class='bottomView'>
+        <view class='bottomItemView'>
+          <image class='bottomItemImage' src='../../images/ding.png'></image>
+          <text class='bottomItemText'>{{item.ding}}</text>
+        </view>
+        <view class='bottomItemView'>
+          <image class='bottomItemImage' src='../../images/cai.png'></image>
+          <text class='bottomItemText'>{{item.cai}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>

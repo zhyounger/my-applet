@@ -1,0 +1,58 @@
+<!--miniprogram/pages/home/home.wxml-->
+<!-- 首页 -->
+<!-- <loading hidden="{{loadingHidden}}">正在加载...</loading> -->
+<view class='container'>
+  <view class='user-info-view'>
+    <view class='top'>
+      <image class='user-avatar' src='{{avatarUrl}}'></image>
+      <view class='info-text-view'>
+        <text class='nickname'>欢迎: {{nickName}}</text>
+        <text class='time'>访问时间: {{time}}</text>
+      </view>
+    </view>
+
+    <view class='divLine'></view>
+  </view>
+
+  <view class='scroll-view'>
+    <scroll-view scroll-y='true' style='height:{{scrollViewHeight}}rpx;'>
+      <view class='intro-view'>
+        <text>欢迎来到zhyoung的blog</text>
+        <text>本小程序基于微信小程序云开发</text>
+        <text>主要用于作者的内容展示</text>
+      </view>
+
+      <view class='about-contact-view'>
+        <view class='about-contact'>
+          <image class='about-contact-img' src='../../images/github.png' />
+          <text class='about-contact-text'>zhyounger</text>
+        </view>
+        <view class='fenge'></view>
+        <view class='about-contact'>
+          <image class='about-contact-img' src='../../images/email.png' />
+          <text class='about-contact-text'>zhyoung@live.cn</text>
+        </view>
+      </view>
+
+      <view class='finish-todo'>
+        <text>功能完善中</text>
+        <text>扫描下方二维码关注公众号联系博主</text>
+        <text>长按下图保存二维码</text>
+        <!-- <text>长按保存下方二维码，微信扫描二维码关注公众号：周Young</text> -->
+      </view>
+
+      <view class='QR-code-view'>
+        <image class='QR-code' src='{{QRCodeUrl}}' bindtouchstart='timestart' bindtouchend='timeend' bindtap='saveImg'></image>
+        <text style='line-height:10rpx;'>周Young</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class='search-view'>
+    <view class='search-box'>
+      <input class='search-input' placeholder='请输入搜索内容' bindinput='searchText' bindconfirm='search' value='{{searchText}}' />
+      <icon class='search-icon' size='22' type='search' bindtap='search' />
+    </view>
+  </view>
+  <official-account></official-account>
+</view>

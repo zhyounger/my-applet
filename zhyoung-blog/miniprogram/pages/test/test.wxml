@@ -1,0 +1,8 @@
+<!--miniprogram/pages/test/test.wxml-->
+<canvas style=" width: 750rpx; height: 600rpx; background-color: red;" canvas-id="attendCanvasId"/>
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <view class="picker">
+    {{array[index]}}
+  </view>
+</picker>

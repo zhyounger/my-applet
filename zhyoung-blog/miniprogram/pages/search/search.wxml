@@ -1,0 +1,42 @@
+<!-- 搜索结果页面 -->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+<block wx:if="{{renderFlag==true}}">
+  <scroll-view scroll-y="true" bindscrolltoupper="bindscrolltoupper" bindscrolltolower="bindscrolltolower" style='height: 100%'>
+    <block wx:for-items="{{list}}" wx:key="ID">
+      <!-- 分割线 -->
+      <view class='divLine'></view>
+      <!-- 整体item样式 -->
+      <view class='containsView'>
+        <!--顶部样式-->
+        <view class="topContainsView">
+          <text class="post_title">{{item.post_title}}</text>
+          <text class="post_date">{{item.post_date}}</text>
+        </view>
+        <!-- 中间内容 -->
+        <view  class='centerContent'>
+          <text>{{item.post_excerpt}}</text>
+        </view>
+        <view class='ps'>
+          <text>温馨提示：为保持良好浏览体验，请访问PC站点：zhyoung.cn</text>
+        </view>
+        <!-- 底部view样式 -->
+        <view class='bottomView'>
+          <view class='bottomItemView'>
+            <image class='bottomItemImage' src='../../images/comment.png'></image>
+            <text class='bottomItemText'>{{item.comment_count}}</text>
+          </view>
+          <view class='bottomItemView'>
+            <button id='{{item.ID}}' class='bottomItemText bottomItembtn' bindtap='goToPostPage'>点击阅读更多</button>
+          </view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</block>
+
+<block wx:elif="{{renderFlag==false}}">
+  <view class='notice'>
+    <text>搜索结果不存在!</text>
+    <text>请尝试更换搜索关键词！</text>
+  </view>
+</block>

@@ -1,0 +1,42 @@
+/* pages/post/post.wxss */
+
+.top_view {
+  display: flex;
+  flex-direction: column;
+}
+
+.post_title {
+  font-size: 40rpx;
+  font-weight: 900;
+  text-align: center;
+}
+
+.post_date {  
+  font-size: 30rpx;
+  text-align: center;
+  color: #b8b2b2;
+}
+
+.content_view {
+  margin-top: 30rpx;
+  line-height: 150% !important;
+  text-align: justify;
+  /* text-align-last: justify; */
+}
+
+.post_content::after {
+  width: 100%;
+  display: inline-block;
+  content: '';
+}
+
+.comment_view {
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 100rpx;
+}
+
+.comment_text {
+  font-weight: 700;
+}

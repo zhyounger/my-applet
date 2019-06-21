@@ -1,0 +1,23 @@
+<!--miniprogram/pages/photopage/photopage.wxml-->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+
+<view class='container'>
+  <view class='photo-view' style='height: {{photoHeight}}rpx;' bindtouchstart='touchStart' bindtouchend='touchEnd'>
+    <image wx:if="{{photoList.length>0}}" src='https://gitee.com/zhyounger/photo/raw/master/{{pageDate}}/{{photoList[photoIndex]}}' class='photo' bindtap='show' mode='aspectFit'></image>
+  </view>
+
+  <!-- <view class='test'>
+    <text>https://gitee.com/zhyounger/photo/raw/master/{{pageDate}}/{{photoList[photoIndex]}}</text>
+  </view> -->
+
+  <view class='page-view'>
+    <button class='index-btn index-font' bindtap='previous'>上一张</button>
+    <picker bindchange="bindPickerChange" value="{{photoIndex}}" range="{{indexArray}}">
+      <view class="picker">
+        <text class='index-font'>{{photoIndex+1}}</text>
+      </view>
+    </picker>
+    <button class='index-btn index-font' bindtap='next'>下一张</button>
+  </view>
+</view>
+

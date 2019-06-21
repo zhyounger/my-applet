@@ -1,0 +1,113 @@
+/**app.wxss**/
+@import './towxml/style/main.wxss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+.divLine{
+  background: #f3f3f3;
+  width: 100%;
+  height: 10rpx;
+}
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* 博文css */
+.containsView{
+  background-color: white;
+  border-radius:25rpx;
+}
+
+.topContainsView{
+  padding: 20rpx 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18rpx;
+}
+
+.centerContent{
+  padding: 20rpx 30rpx 0 30rpx;
+  text-align: justify;
+  /* text-align-last: justify; */ /*这是最后一行两端对齐*/
+  font-size: 30rpx;
+  /* text-indent: 2em; */
+}
+
+.bottomView{
+  padding: 20rpx 30rpx 0 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomItemView{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.bottomItemImage{
+  width: 50rpx;
+  height: 50rpx;
+}
+.bottomItemText{
+  font-size: 30rpx;
+  color: #b8b2b2;
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+}
+
+.post_title {
+  text-align: center;
+  font-size: 25rpx;
+  font-weight: 900;
+}
+
+.post_date {
+  text-align: center;
+  font-size: 18rpx;
+  color: #b8b2b2;
+}
+
+.ps {
+  font-size: 23rpx;
+  text-align: center;
+  margin-top: 5rpx;
+  color: #b8b2b2;
+}
+
+.bottomItembtn {
+  background-color: white;
+  border: none;
+}
+
+.bottomItembtn::after {
+  border: none;
+}

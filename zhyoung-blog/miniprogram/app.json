@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/test/test",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/home/home",
+    "pages/archive/archive",
+    "pages/word/word",
+    "pages/post/post",
+    "pages/search/search",
+    "pages/photopage/photopage"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "周Young",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首 页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/archive/archive",
+        "text": "博 文",
+        "iconPath": "images/archive.png",
+        "selectedIconPath": "images/archive1.png"
+      },
+      {
+        "pagePath": "pages/word/word",
+        "text": "段 子",
+        "iconPath": "images/word.png",
+        "selectedIconPath": "images/word1.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "摄  影",
+        "iconPath": "images/photo.png",
+        "selectedIconPath": "images/photo1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

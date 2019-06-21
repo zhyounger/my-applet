@@ -1,0 +1,5 @@
+/* miniprogram/pages/test/test.wxss */
+.picker {
+  width: 100rpx;
+  background-color: #eeeeee;
+}

@@ -1,0 +1,33 @@
+<!-- 文章列表 -->
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+<scroll-view scroll-y="true" bindscrolltoupper="bindscrolltoupper" bindscrolltolower="bindscrolltolower" style='height: 100%'>
+  <block wx:for-items="{{list}}" wx:key="ID">
+    <!-- 分割线 -->
+    <view class='divLine'></view>
+    <!-- 整体item样式 -->
+    <view class='containsView'>
+      <!--顶部样式-->
+      <view class="topContainsView">
+        <text class="post_title">{{item.post_title}}</text>
+        <text class="post_date">{{item.post_date}}</text>
+      </view>
+      <!-- 中间内容 -->
+      <view class='centerContent'>
+        <text>{{item.post_excerpt}}</text>
+      </view>
+      <view class='ps'>
+        <text>温馨提示：为保持良好浏览体验，请使用PC访问站点：zhyoung.cn</text>
+      </view>
+      <!-- 底部view样式 -->
+      <view class='bottomView'>
+        <view class='bottomItemView'>
+          <image class='bottomItemImage' src='../../images/comment.png'></image>
+          <text class='bottomItemText'>{{item.comment_count}}</text>
+        </view>
+        <view class='bottomItemView'>
+          <button id='{{item.ID}}' class='bottomItemText bottomItembtn' bindtap='goToPostPage'>点击阅读更多</button>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>

@@ -1,0 +1,24 @@
+/* miniprogram/pages/photo/photo.wxss */
+
+.top-view{
+  /* background-color: white; */
+  margin-top: 40rpx;
+  width: 100%;
+  font-size: 45rpx;
+  height: 100rpx;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+}
+
+.centerContent {
+  background-color: white;
+  /* line-height: 60rpx; */
+  align-items: stretch;
+  height: 50rpx;
+  text-align: center;
+  font-size: 35rpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  border-radius:25rpx;
+}

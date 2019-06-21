@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">点击登录</button>
+    </view>
+  </view>
+
+</view>

@@ -10,9 +10,9 @@
 
 如果周Young有不足的地方，或者你有更好的想法，欢迎提交[ISSUE](https://github.com/zhyounger/my-applet/issues)。
 
-## 项目截图
+![扫码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
 
-![扫描小程序码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
+## 项目截图
 
 <div align='center'>
 <img src='https://github.com/zhyounger/my-applet/raw/master/img/home.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/archive.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/post.png' height='614' width='283'>
@@ -42,3 +42,7 @@
 
 ## Contact
 <a href="mailto:zhyoung@live.cn">zhyoung@live.cn</a>
+
+## Link
+[zhyoung](https://zhyoung.cn)
+[License Mit](https://github.com/zhyounger/my-applet/blob/master/LICENSE)

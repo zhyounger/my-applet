@@ -29,20 +29,25 @@
 小程序: 周Young 正式上线。
 
 #### Finished:
+
 - 首页及博文搜索功能（数据来自 https://zhyoung.cn）
 - 博文列表及博文页面（数据来自 https://zhyoung.cn）
 - 段子页面（数据来自 https://api.budejie.com）
 - 影集列表及相册页面（数据来自 https://zhyoung.cn）
 
 #### Todo:
+
 - 完善登录功能
 - 留言/评论功能
 - 文章样式完善
 - ......
 
 ## Contact
+
 <a href="mailto:zhyoung@live.cn">zhyoung@live.cn</a>
 
 ## Link
+
 [zhyoung](https://zhyoung.cn)
+
 [License Mit](https://github.com/zhyounger/my-applet/blob/master/LICENSE)

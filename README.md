@@ -1,8 +1,8 @@
 # 周Young的小程序
 
-https://img.shields.io/badge/version-1.0.0-blue.svg
-https://img.shields.io/badge/基础库-2.7.1-blue.svg
-https://img.shields.io/badge/license-Apache-2.0-green.svg
+![](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![](https://img.shields.io/badge/基础库-2.7.1-blue.svg)
+![](https://img.shields.io/badge/license-Apache-2.0-green.svg)
 
 微信小程序个人Blog,主要用于个人内容展示。博文数据主要来自WordPress博客[ZHYOUNG](https://zhyoung.cn)
 
@@ -10,17 +10,17 @@ https://img.shields.io/badge/license-Apache-2.0-green.svg
 
 ![扫描小程序码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
 
-![首页](https://github.com/zhyounger/my-applet/raw/master/img/home.jpg)
+![首页](https://github.com/zhyounger/my-applet/raw/master/img/home.png)
 
-![文章列表](https://github.com/zhyounger/my-applet/raw/master/img/archive.jpg)
+![文章列表](https://github.com/zhyounger/my-applet/raw/master/img/archive.png)
 
-![文章页面](https://github.com/zhyounger/my-applet/raw/master/img/post.jpg)
+![文章页面](https://github.com/zhyounger/my-applet/raw/master/img/post.png)
 
-![段子页面](https://github.com/zhyounger/my-applet/raw/master/img/word.jpg)
+![段子页面](https://github.com/zhyounger/my-applet/raw/master/img/word.png)
 
-![影集列表](https://github.com/zhyounger/my-applet/raw/master/img/photo-list.jpg)
+![影集列表](https://github.com/zhyounger/my-applet/raw/master/img/photo-list.png)
 
-![图片展示](https://github.com/zhyounger/my-applet/raw/master/img/photo.jpg)
+![图片展示](https://github.com/zhyounger/my-applet/raw/master/img/photo.png)
 
 # Change Log
 

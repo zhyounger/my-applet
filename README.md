@@ -10,19 +10,23 @@
 
 如果周Young有不足的地方，或者你有更好的想法，欢迎提交<a href='https://github.com/zhyounger/my-applet/issues' target='_blank'>ISSUE</a>。
 
-![扫码体验小程序](https://github.com/zhyounger/my-applet/raw/master/img/applet.jpg)
+![扫码体验小程序](https://gitee.com/zhyounger/my-applet/raw/master/img/applet.jpg)
 
 ## 项目截图
 
 <div align='center'>
-<img src='https://github.com/zhyounger/my-applet/raw/master/img/home.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/archive.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/post.png' height='614' width='283'>
+<img src='https://gitee.com/zhyounger/my-applet/raw/master/img/home.png' height='614' width='283'><img src='https://gitee.com/zhyounger/my-applet/raw/master/img/archive.png' height='614' width='283'><img src='https://gitee.com/zhyounger/my-applet/raw/master/img/post.png' height='614' width='283'>
 </div>
 
 <div align='center'>
-<img src='https://github.com/zhyounger/my-applet/raw/master/img/word.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/photo-list.png' height='614' width='283'><img src='https://github.com/zhyounger/my-applet/raw/master/img/photo.png' height='614' width='283'>
+<img src='https://gitee.com/zhyounger/my-applet/raw/master/img/word.png' height='614' width='283'><img src='https://gitee.com/zhyounger/my-applet/raw/master/img/photo-list.png' height='614' width='283'><img src='https://gitee.com/zhyounger/my-applet/raw/master/img/photo.png' height='614' width='283'>
 </div>
 
 ## Change Log
+
+### v 1.0.1（2019-06-25）
+
+照片展示页面优化，禁止页面上下左右滚动。
 
 ### v 1.0.0（2019-06-21）
 

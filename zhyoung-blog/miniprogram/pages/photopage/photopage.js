@@ -149,7 +149,7 @@ Page({
     this.setData({
       photoIndex: value
     })
-    console.log(this.data.photoIndex)
+    // console.log(this.data.photoIndex)
   },
 
   touchStart: function(e) {
@@ -162,7 +162,7 @@ Page({
   touchEnd: function(e) {
     // console.log(e.changedTouches[0].clientX)
     var moveX = this.data.beforeXPos - e.changedTouches[0].clientX
-    console.log(moveX)
+    // console.log(moveX)
     // 滑动图片，显示下/上一张
     if(moveX > 50) this.next()
     if(moveX < -50) this.previous()
